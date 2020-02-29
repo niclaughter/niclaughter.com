@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "borsok";
+  src: url("fonts/borsok/boorsok.otf") format("opentype"),
+    url("fonts/borsok/boorsok.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  background: rgb(68, 136, 187);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.bio-text {
+  background: white;
+  font-size: 20px;
+  padding: 0px 20px;
+  font-family: "helvetica";
+}
+
+.logo-text {
+  background: white;
+  display: flex;
+  flex: 1 1 auto;
+  font-size: 38px;
+  font-family: "borsok";
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 20px 200px 20px 0px;
+}
+
+.main-header {
+  align-items: center;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.profile-image {
+  display: inline-block;
+  min-width: 200px;
+  max-width: 200px;
+}
