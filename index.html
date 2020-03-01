@@ -1,42 +1,112 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Nic Laughter</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link rel="stylesheet" href="stylesheets/style.css" />
-    <link rel="shortcut icon" href="images/favicon.ico" />
-  </head>
-  <body>
-    <header class="main-header">
-      <img
-        class="profile-image"
-        src="/images/13_107-3046.JPG"
-        alt="Nic Laughter Profile"
+<html lang="en">
+  <html>
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="CACHE-CONTROL" content="NO-CACHE" />
+      <title>Nic Laughter's Profile</title>
+      <link rel="stylesheet" href="stylesheets/style.css" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900"
+        rel="stylesheet"
       />
-      <h1 class="logo-text">Nic Laughter</h1>
-    </header>
-    <div class="bio-text">
-      <h3>Who Am I?</h3>
-      <p>
-        I'm a software engineer in Utah, actively looking for my next role.
-        <br><br>
-        I like to build lots of <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/niclaughter">cool stuff</a>, although most of my projects are <i>private</i>. 🤫
-        <br><br>
-          Primarily I work on iOS and am proficient in Swift and Objective-C, and have contributed to projects using:
-        <ul>
-          <li>HTML/CSS/JavaScript</li>
-          <li>React Native</li>
-          <li>Python</li>
-          <li>And Kotlin.</li>
+      <link rel="shortcut icon" href="images/favicon.ico" />
+    </head>
+    <body>
+      <div class="main-nav">
+        <ul class="nav">
+          <li class="name">Nic Laughter</li>
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="public/NicResume1.pdf" target="_blank">Experience</a>
+          </li>
+          <!-- <li><a href="#">Photos</a></li> -->
+          <!-- <li><a href="#">Contact</a></li> -->
         </ul>
-        You can get a hold of me on Twitter at <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nictheawesome">@nictheawesome</a>.
-        <br><br>
-        Since I'm an iOS engineer, and <i>not</i> a web engineer, this will look pretty ugly for a while as I learn more about front end. Eventually, this will be something worth showing off though! 😉
-      </p>
-    </div class="bio-text">
-  </body>
+      </div>
+
+      <header>
+        <img
+          src="images/niclaughterprofile.JPG"
+          alt="Nic Laughter Headshot"
+          class="profile-image"
+        />
+        <h1 class="tag name">Hello, I’m Nic.</h1>
+        <p class="tag location">My home is Saratoga Springs, Utah.</p>
+      </header>
+
+      <main class="flex">
+        <div class="card">
+          <h2>Background</h2>
+          <p>
+            I’m an iOS software engineer and aspiring front end engineer,
+            actively looking for my next role. I like to build lots of neat
+            things, though most of my work is private. 🤫
+          </p>
+          <p>
+            I have spent years doing sales, but have always been curious about
+            software and am a life-long learner who's always interested in
+            expanding my skills.
+          </p>
+          <ul>
+            <li>
+              To learn more,
+              <a href="public/NicResume1.pdf" target="_blank"
+                >view my resume.</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>Goals</h2>
+          <p>
+            I want to master the process of building web sites and increase my
+            knowledge, skills and abilities in:
+          </p>
+          <ul class="skills">
+            <li>Swift</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>Rails</li>
+          </ul>
+          <p>
+            I’d like to work for a remote tech company building things that make
+            the world a better place.
+          </p>
+        </div>
+      </main>
+      <footer>
+        <ul>
+          <li>
+            <a
+              href="https://twitter.com/nictheawesome"
+              class="social twitter"
+              target="_blank"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com/in/niclaughter"
+              class="social linkedin"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/niclaughter"
+              class="social github"
+              target="_blank"
+              >Github</a
+            >
+          </li>
+        </ul>
+        <p class="copyright">Copyright 2020, Nic Laughter</p>
+      </footer>
+    </body>
+  </html>
 </html>
