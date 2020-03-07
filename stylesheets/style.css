@@ -16,9 +16,10 @@ body {
 a {
   text-decoration: none;
   color: rgb(0, 146, 0);
+  border-radius: 5px;
 }
 a:hover {
-  color: green;
+  color: white;
 }
 
 /* Section Styles */
@@ -81,7 +82,7 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 }
-.location {
+.quote {
   background-color: #222;
   color: white;
 }
@@ -96,6 +97,13 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: green;
+}
+.card a {
+  transition: all 0.5s;
+}
+.card a:hover {
+  background-color: #222;
+  padding: 10px;
 }
 
 ul.skills {
@@ -159,6 +167,7 @@ a.github {
 }
 a.social:hover {
   opacity: 1;
+  transform: scale(1.5) rotate(360deg);
 }
 .clearfix {
   clear: both;
