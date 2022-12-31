@@ -85,6 +85,8 @@ header .profile-image:hover {
 .quote {
   background-color: #222;
   color: white;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .card {
   margin: 30px;
@@ -132,7 +134,6 @@ footer {
 
 footer .copyright {
   top: -8px;
-  margin-right: 20px;
   font-size: 0.75em;
 }
 
@@ -156,14 +157,17 @@ a.social {
   opacity: 0.5;
   transition: all 0.25s;
 }
-a.twitter {
-  background-image: url(../images/twitter.svg);
+a.tiktok {
+  background-image: url(../images/tiktok.svg);
 }
 a.linkedin {
   background-image: url(../images/linkedin.svg);
 }
 a.github {
   background-image: url(../images/github.svg);
+}
+a.facebook {
+  background-image: url(../images/facebook.svg);
 }
 a.social:hover {
   opacity: 1;
@@ -208,5 +212,12 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+}
+
+/* Styles for handheld devices */
+@media all and (max-width: 720px) and (min-height: 720px) {
+  .flex {
+    display: flex;
   }
 }
