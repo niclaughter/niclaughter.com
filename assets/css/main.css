@@ -2256,6 +2256,14 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		.icon.brands:hover {
+			opacity: 1;
+			transform: scale(1.5) rotate(360deg);
+		  }
+		  .clearfix {
+			clear: both;
+		  }
+
 	.icon {
 		color: #e0e0e0;
 	}
@@ -2378,6 +2386,14 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+	.image.spinning:hover {
+		opacity: 1;
+		transform: scale(1.5) rotate(360deg);
+	  }
+	  .clearfix {
+		clear: both;
+	  }
+	  
 	.image {
 		box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6;
 	}
